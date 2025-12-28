@@ -1,10 +1,16 @@
 import pygame
-from pygame.locals import *
-from constants import *
+
+from constants import SCREEN_WIDTH
+from constants import SCREEN_HEIGHT
+
 from asteroid import Asteroid
+
 from asteroidfield import AsteroidField
+
 from player import Player
+
 from shot import Shot
+
 
 def main():
     print("Starting asteroids!")
