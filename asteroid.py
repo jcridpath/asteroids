@@ -23,6 +23,3 @@ class Asteroid(CircleShape):
         radius = self.radius - ASTEROID_MIN_RADIUS
         asteroid_field.spawn(radius, self.position, angle_one * 1.2)
         asteroid_field.spawn(radius, self.position, angle_two * 1.2)
-
-
-
